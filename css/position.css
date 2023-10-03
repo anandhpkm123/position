@@ -12,6 +12,28 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.dropdown{
+    list-style: none;
+    text-align: center;
+    width: 200px;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+a:hover{
+    background-color: red;
+    text-decoration: none;
+}
+.about{
+    list-style: none;
+    display: none;
+    padding-left: 0px;
+}
+
+.dropdown li:hover .about{
+    display: block;
+}
 .graphy{
     width: 80%;
     margin: auto;
@@ -233,11 +255,21 @@ a{
     .para h2{
         text-align: center;
     }
+    .fashion a{
+        width: 100px;
+        margin-left: 80px;
+    }
     .fashion1{
         display: block;
     }
     .fashion1{
         text-align: center;
+    }
+    .dropdown{
+        margin: 0px;
+    }
+    .container2{
+        padding-top: 20px;
     }
     .short1{
         display: block;
@@ -251,9 +283,15 @@ a{
         width: 100%;
         text-align: center;
     }
+    .short3 img{
+        height: 0px;
+    }
     .latest{
         display: block;
         height: max-content;
+    }
+    .latest div{
+        margin-bottom: 20px;
     }
     .latest img{
         width: 100%;
@@ -284,18 +322,19 @@ a{
         width: 80%;
         z-index: 5;
     }
-    .graphy{
-        display: block;
-    }
     .container2{
         height: 400px;
     }
     .about{
-        display: block;
+        display: none;
         width: 100%;
+    }
+    .about li{
+        padding: 5px;
     }
     .photography{
         width: 100%;
+        text-align: left;
     }
     .graphy{
         text-align: center;
@@ -327,6 +366,7 @@ a{
         margin-top: 0px;
         padding: 0px;
         padding-bottom: 10px;
+        margin-left: 70px;
     }
     .copy{
         text-align: center;
