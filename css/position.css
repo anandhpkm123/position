@@ -1,0 +1,335 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: black;
+    height: 100px;
+    color: blue;
+}
+.container1{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.graphy{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.photography{
+    width: 50%;
+}
+.photography p{
+    margin: 0px;
+}
+strong{
+    color: red;
+}
+.about{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+}
+.about a:hover{
+    background-color: red;
+    border-radius: 70%;
+    padding: 10px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container2{
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+.galary{
+    height: 250px;
+    width: 80%;
+    margin: auto;
+}
+.galary img{
+
+    height: 200px;
+    position: absolute;
+}
+.galary1{
+    margin-left: 0px;
+}
+.galary1:hover{
+    z-index: 5;
+}
+.galary2{
+    margin-left: 10%;
+}
+.galary2:hover{
+    z-index: 6;
+}
+.galary3{
+    margin-left: 20%;
+}
+.galary3:hover{
+    z-index: 7;
+}
+.galary4{
+    margin-left: 30%;
+}
+.galary4:hover{
+    z-index: 8;
+}
+.galary5{
+    margin-left: 40%;
+    width: 39%;
+}
+.galary5:hover{
+    z-index: 9;
+}
+.container3{
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+}
+.para{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+.para p{
+    margin: auto;
+    padding-left: 20px;
+}
+.para h2{
+    margin-top: 0px;
+}
+.container4{
+    width: 100%;
+    background-color: lightslategrey;
+    color: white;
+}
+.fashion img{
+    height: 200px;
+    width: 100%;
+}
+.fashion a{
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+.fashion1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80%;
+    margin: auto;
+    column-gap: 20px;
+    padding: 20px 0;
+}
+.fashion h3{
+    margin-bottom: 5px;
+}
+.container5{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px;
+}
+.short{
+    width: 80%;
+    margin: auto;
+}
+.short1{
+    display: flex;
+    padding-top: 20px;
+}
+.short2{
+    display: flex;
+    width: 50%;
+}
+.short3{
+    width: 50%;
+}
+.short3 img{
+    max-width: 100%;
+    height: 350px;
+}
+.short h3{
+    margin: 0px;
+    padding: 10px;
+}
+.double{
+    padding-left: 20px;
+    margin-right: 20px;
+    width: 50%;
+    padding-top: 20px;
+}
+.fine3{
+    width: 50%;
+}
+.adver{
+    padding-left: 10px;
+}
+.fine1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.fine1 ul{
+    color: brown;
+    list-style: none;
+    padding-left: 0px;
+    line-height: 30px;
+}
+.latest{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    height: 360px;
+}
+.latest img{
+    max-width: 100%;
+    height: 100px;
+}
+.container6{
+    width: 100%; 
+    display: flex; 
+    border-color: antiquewhite;
+}
+.copy{
+    width: 80%;
+    margin: auto;
+}
+.logo{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.logo1 img{
+    width: 50%;
+    margin-left: 90px;
+    margin-top: 15px;
+    padding: 10px;
+}
+.container7{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+@media(max-width:576px){
+    .para{
+        display: block;
+    }
+    .para h2{
+        text-align: center;
+    }
+    .fashion1{
+        display: block;
+    }
+    .fashion1{
+        text-align: center;
+    }
+    .short1{
+        display: block;
+    }
+    .short2{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .short3{
+        width: 100%;
+        text-align: center;
+    }
+    .latest{
+        display: block;
+        height: max-content;
+    }
+    .latest img{
+        width: 100%;
+        height: 100%;
+    }
+    .galary1{
+        margin: 0px;
+        width: 80%;
+        z-index: 1;
+    }
+    .galary2{
+        margin: 10% 0 0 0;
+        width: 80%;
+        z-index: 2;
+    }
+    .galary3{
+        margin: 20% 0 0 0;
+        width: 80%;
+        z-index: 3;
+    }
+    .galary4{
+        margin: 30% 0 0;
+        width: 80%;
+        z-index: 4;
+    }
+    .galary5{
+        margin: 40% 0 0;
+        width: 80%;
+        z-index: 5;
+    }
+    .graphy{
+        display: block;
+    }
+    .container2{
+        height: 400px;
+    }
+    .about{
+        display: block;
+        width: 100%;
+    }
+    .photography{
+        width: 100%;
+    }
+    .graphy{
+        text-align: center;
+    }
+    .about div{
+        padding: 5px;
+    }
+    .double{
+        padding-left: 0px;
+        width: 100%;
+    }
+    .fine1 ul{
+        margin-right: 10px;
+        text-align: center;
+    }
+    .fine3{
+        margin: auto;
+        width: 100%;
+    }
+    .fine3 h3{
+        text-align: center;
+    }
+    .logo{
+        display: block;
+    }
+    .logo1 img{
+        max-width: 100%;
+        padding-left: 30px;
+        margin-top: 0px;
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    .copy{
+        text-align: center;
+    }
+}
+
